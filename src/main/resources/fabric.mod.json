@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "durasteel",
+	"version": "${version}",
+	"name": "Durasteel",
+	"description": "Mod that adds in a material called durasteel",
+	"authors": [
+		"Me!"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/durasteel/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"durasteel.modid.Durasteel"
+		],
+		"client": [
+			"durasteel.modid.DurasteelModClient"
+		],
+		"fabric-datagen": [
+			"durasteel.modid.DurasteelDataGenerator"
+		]
+	},
+	"mixins": [
+		"durasteel.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.15.6",
+		"minecraft": "~1.20.4",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
