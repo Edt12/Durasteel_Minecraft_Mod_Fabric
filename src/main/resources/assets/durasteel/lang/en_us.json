@@ -1,0 +1,14 @@
+{
+  "item.durasteel.durasteel_sheet" : "Durasteel Sheet",
+  "item.durasteel.durasteel_pickaxe" : "Durasteel Pickaxe",
+  "item.durasteel.durasteel_axe" : "Durasteel Axe",
+  "item.durasteel.durasteel_shovel" : "Durasteel Shovel",
+  "item.durasteel.durasteel_hoe" : "Durasteel Hoe",
+  "item.durasteel.durasteel_sword" : "Durasteel Sword",
+
+
+  "itemgroup.durasteel" : "Durasteel Mod Items",
+
+  "block.durasteel.durasteel": "Durasteel Block",
+  "block.durasteel.c4": "C4 Block"
+}
